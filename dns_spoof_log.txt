@@ -1,0 +1,916 @@
+Sat May 24 05:02:28 2025: Possible DNS spoofing in network traffic!
+Query: raw.githubusercontent.com.
+DNS Server: 1.1.1.1
+Received IPs: 185.199.111.133, 185.199.108.133, 185.199.109.133, 185.199.110.133
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:02:28 2025: Possible DNS spoofing detected!
+Domain: google.com
+Expected IP: 142.250.77.110
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 142.250.206.46
+  - 9.9.9.9: 74.125.24.113, 74.125.24.101, 74.125.24.102, 74.125.24.139, 74.125.24.100, 74.125.24.138
+  - 208.67.222.222: 142.251.221.206
+
+Sat May 24 05:02:28 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 8.8.8.8
+Received IPs: 142.250.77.110
+Trusted IPs: 142.250.206.46
+
+Sat May 24 05:02:29 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 9.9.9.9
+Received IPs: 74.125.24.100, 74.125.24.139, 74.125.24.138, 74.125.24.102, 74.125.24.101, 74.125.24.113
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:02:29 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 208.67.222.222
+Received IPs: 142.251.221.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:02:29 2025: Possible DNS spoofing detected!
+Domain: facebook.com
+Expected IP: 57.144.208.1
+Suspicious servers: 1.1.1.1, 9.9.9.9
+Responses from suspicious servers:
+  - 1.1.1.1: 185.199.111.133, 185.199.110.133, 185.199.108.133, 185.199.109.133
+  - 9.9.9.9: 157.240.13.35
+
+Sat May 24 05:02:30 2025: Possible DNS spoofing in network traffic!
+Query: raw.githubusercontent.com.
+DNS Server: 8.8.8.8
+Received IPs: 185.199.108.133, 185.199.109.133, 185.199.111.133, 185.199.110.133
+Trusted IPs: 142.250.206.14, 142.251.220.110
+
+Sat May 24 05:02:31 2025: Possible DNS spoofing detected!
+Domain: doubleclick.net
+Expected IP: 142.250.206.14
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 142.251.220.110
+  - 9.9.9.9: 74.125.200.102, 74.125.200.139, 74.125.200.113, 74.125.200.138, 74.125.200.101, 74.125.200.100
+  - 208.67.222.222: 142.250.183.142
+
+Sat May 24 05:02:32 2025: Possible DNS spoofing detected!
+Domain: google-analytics.com
+Expected IP: 142.251.222.196
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 185.199.109.133, 185.199.108.133, 185.199.111.133, 185.199.110.133
+  - 9.9.9.9: 172.253.118.104, 172.253.118.105, 172.253.118.103, 172.253.118.99, 172.253.118.147, 172.253.118.106
+  - 208.67.222.222: 142.251.221.164
+
+Sat May 24 05:02:33 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 9.9.9.9
+Received IPs: 157.240.13.35
+Trusted IPs: 57.144.208.1, 157.240.15.35
+
+Sat May 24 05:02:33 2025: Possible DNS spoofing detected!
+Domain: akamaihd.net
+Expected IP: 57.144.208.1
+Suspicious servers: 1.1.1.1
+Responses from suspicious servers:
+  - 1.1.1.1: 157.240.15.35
+
+Sat May 24 05:02:35 2025: Possible DNS spoofing detected!
+Domain: googlesyndication.com
+Expected IP: 185.199.111.133
+Suspicious servers: 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 9.9.9.9: 142.251.12.104, 142.251.12.106, 142.251.12.103, 142.251.12.147, 142.251.12.99, 142.251.12.105
+  - 208.67.222.222: 142.251.221.100
+
+Sat May 24 05:02:36 2025: Possible DNS spoofing in network traffic!
+Query: doubleclick.net.
+DNS Server: 9.9.9.9
+Received IPs: 74.125.200.100, 74.125.200.138, 74.125.200.113, 74.125.200.102, 74.125.200.139, 74.125.200.101
+Trusted IPs: 142.250.206.14, 142.251.220.110
+
+Sat May 24 05:02:36 2025: Possible DNS spoofing detected!
+Domain: googleapis.com
+Expected IP: 185.199.110.133
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 142.251.221.164
+  - 9.9.9.9: 142.251.12.105, 142.251.12.99, 142.251.12.104, 142.251.12.147, 142.251.12.106, 142.251.12.103
+  - 208.67.222.222: 142.250.183.164
+
+Sat May 24 05:02:36 2025: Possible DNS spoofing in network traffic!
+Query: doubleclick.net.
+DNS Server: 208.67.222.222
+Received IPs: 142.250.183.142
+Trusted IPs: 142.250.206.14, 142.251.220.110
+
+Sat May 24 05:02:37 2025: Possible DNS spoofing detected!
+Domain: googleadservices.com
+Expected IP: 23.193.48.56
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 142.251.43.34
+  - 9.9.9.9: 172.217.194.156, 172.217.194.155, 172.217.194.154, 172.217.194.157
+  - 208.67.222.222: 142.250.195.162
+
+Sat May 24 05:02:38 2025: Possible DNS spoofing in network traffic!
+Query: google-analytics.com.
+DNS Server: 9.9.9.9
+Received IPs: 172.253.118.104, 172.253.118.105, 172.253.118.147, 172.253.118.106, 172.253.118.99, 172.253.118.103
+Trusted IPs: 142.251.222.196, 142.250.205.4
+
+Sat May 24 05:02:38 2025: Possible DNS spoofing in network traffic!
+Query: google-analytics.com.
+DNS Server: 208.67.222.222
+Received IPs: 142.251.221.164
+Trusted IPs: 142.251.222.196, 142.250.205.4
+
+Sat May 24 05:02:40 2025: Possible DNS spoofing detected!
+Domain: youtube.com
+Expected IP: 57.144.208.1
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 157.240.15.35
+  - 9.9.9.9: 172.253.118.136, 172.253.118.91, 172.253.118.93, 172.253.118.190
+  - 208.67.222.222: 142.250.66.14
+
+Sat May 24 05:02:41 2025: Possible DNS spoofing detected!
+Domain: twitter.com
+Expected IP: 162.159.140.229
+Suspicious servers: 8.8.8.8
+Responses from suspicious servers:
+  - 8.8.8.8: 185.199.109.133, 185.199.111.133, 185.199.110.133, 185.199.108.133
+
+Sat May 24 05:02:42 2025: Possible DNS spoofing detected!
+Domain: scorecardresearch.com
+Expected IP: 185.199.110.133
+Suspicious servers: 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 9.9.9.9: 165.193.78.252
+  - 208.67.222.222: 165.193.78.252
+
+Sat May 24 05:02:44 2025: Possible DNS spoofing in network traffic!
+Query: googlesyndication.com.
+DNS Server: 9.9.9.9
+Received IPs: 142.251.12.147, 142.251.12.104, 142.251.12.103, 142.251.12.106, 142.251.12.99, 142.251.12.105
+Trusted IPs: 142.250.183.164
+
+Sat May 24 05:02:44 2025: Possible DNS spoofing detected!
+Domain: microsoft.com
+Expected IP: 13.107.253.68
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 185.199.108.133, 185.199.109.133, 185.199.110.133, 185.199.111.133
+  - 9.9.9.9: 13.107.246.59
+  - 208.67.222.222: 13.107.246.48
+
+Sat May 24 05:02:45 2025: Possible DNS spoofing in network traffic!
+Query: googlesyndication.com.
+DNS Server: 208.67.222.222
+Received IPs: 142.251.221.100
+Trusted IPs: 142.250.183.164
+
+Sat May 24 05:02:46 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:46 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:46 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:46 2025: Possible DNS spoofing detected!
+Domain: googleusercontent.com
+Expected IP: 142.250.77.110
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 142.251.222.206
+  - 9.9.9.9: 74.125.24.132
+  - 208.67.222.222: 142.251.221.193
+
+Sat May 24 05:02:46 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:47 2025: Possible DNS spoofing detected!
+Domain: apple.com
+Expected IP: 185.199.108.133
+Suspicious servers: 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 9.9.9.9: 17.253.144.10
+  - 208.67.222.222: 17.253.144.10
+
+Sat May 24 05:02:48 2025: Possible DNS spoofing in network traffic!
+Query: googleapis.com.
+DNS Server: 9.9.9.9
+Received IPs: 142.251.12.147, 142.251.12.104, 142.251.12.106, 142.251.12.99, 142.251.12.103, 142.251.12.105
+Trusted IPs: 142.251.221.164, 142.251.221.196
+
+Sat May 24 05:02:48 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:48 2025: Possible DNS spoofing in network traffic!
+Query: googleapis.com.
+DNS Server: 208.67.222.222
+Received IPs: 142.250.183.164
+Trusted IPs: 142.251.221.164, 142.251.221.196
+
+Sat May 24 05:02:48 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:49 2025: Possible DNS spoofing detected!
+Domain: msftncsi.com
+Expected IP: 142.250.206.14
+Suspicious servers: 1.1.1.1
+Responses from suspicious servers:
+  - 1.1.1.1: 142.251.220.110
+
+Sat May 24 05:02:49 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:49 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:50 2025: No DNS servers responded to the query for 2mdn.net
+Sat May 24 05:02:51 2025: Possible DNS spoofing in network traffic!
+Query: googleadservices.com.
+DNS Server: 9.9.9.9
+Received IPs: 172.217.194.156, 172.217.194.155, 172.217.194.154, 172.217.194.157
+Trusted IPs: 142.250.195.194, 142.251.43.34
+
+Sat May 24 05:02:51 2025: Possible DNS spoofing in network traffic!
+Query: googleadservices.com.
+DNS Server: 208.67.222.222
+Received IPs: 142.250.195.162
+Trusted IPs: 142.250.195.194, 142.251.43.34
+
+Sat May 24 05:02:53 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:53 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:53 2025: Possible DNS spoofing detected!
+Domain: adnxs.com
+Expected IP: 142.251.222.196
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 142.250.205.4
+  - 9.9.9.9: 104.254.151.36, 104.254.151.69, 104.254.151.68, 104.254.151.60, 104.254.148.252, 104.254.150.241, 104.254.148.251
+  - 208.67.222.222: 68.67.181.248, 68.67.160.24, 68.67.160.114, 68.67.160.137, 68.67.160.186, 68.67.161.182, 68.67.179.87, 68.67.179.153, 68.67.179.155, 68.67.179.164, 68.67.179.166, 68.67.181.231
+
+Sat May 24 05:02:53 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:53 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:54 2025: Possible DNS spoofing detected!
+Domain: yahoo.com
+Expected IP: 74.6.143.26
+Suspicious servers: 1.1.1.1
+Responses from suspicious servers:
+  - 1.1.1.1: 185.199.111.133, 185.199.110.133, 185.199.108.133, 185.199.109.133
+
+Sat May 24 05:02:56 2025: Possible DNS spoofing in network traffic!
+Query: youtube.com.
+DNS Server: 9.9.9.9
+Received IPs: 172.253.118.93, 172.253.118.91, 172.253.118.136, 172.253.118.190
+Trusted IPs: 142.251.43.142, 142.250.183.174
+
+Sat May 24 05:02:56 2025: Possible DNS spoofing in network traffic!
+Query: youtube.com.
+DNS Server: 208.67.222.222
+Received IPs: 142.250.66.14
+Trusted IPs: 142.251.43.142, 142.250.183.174
+
+Sat May 24 05:02:56 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:56 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:57 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 8.8.8.8
+Received IPs: 57.144.208.1
+Trusted IPs: 157.240.15.35
+
+Sat May 24 05:02:57 2025: Possible DNS spoofing detected!
+Domain: akadns.net
+Expected IP: 57.144.208.1
+Suspicious servers: 1.1.1.1
+Responses from suspicious servers:
+  - 1.1.1.1: 157.240.15.35
+
+Sat May 24 05:02:57 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:57 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.250.206.46
+Trusted IPs: 142.251.222.206, 142.250.77.110
+
+Sat May 24 05:02:58 2025: Possible DNS spoofing detected!
+Domain: bluekai.com
+Expected IP: 172.66.0.227
+Suspicious servers: 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 9.9.9.9: 158.101.24.210
+  - 208.67.222.222: 158.101.24.210
+
+Sat May 24 05:03:00 2025: Possible DNS spoofing in network traffic!
+Query: raw.githubusercontent.com.
+DNS Server: 1.1.1.1
+Received IPs: 185.199.111.133, 185.199.108.133, 185.199.109.133, 185.199.110.133
+Trusted IPs: 69.194.143.123
+
+Sat May 24 05:03:02 2025: Possible DNS spoofing detected!
+Domain: verisign.com
+Expected IP: 185.199.109.133
+Suspicious servers: 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 9.9.9.9: 69.58.187.75, 72.13.63.75
+  - 208.67.222.222: 69.58.187.75, 72.13.63.75
+
+Sat May 24 05:03:03 2025: Possible DNS spoofing detected!
+Domain: addthis.com
+Expected IP: 185.199.110.133
+Suspicious servers: 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 9.9.9.9: 23.55.39.18, 23.55.39.4
+  - 208.67.222.222: 23.202.229.21, 23.202.229.20
+
+Sat May 24 05:03:04 2025: Possible DNS spoofing detected!
+Domain: crashlytics.com
+Expected IP: 216.239.32.29
+Suspicious servers: 8.8.8.8
+Responses from suspicious servers:
+  - 8.8.8.8: 142.250.183.164
+
+Sat May 24 05:03:05 2025: Possible DNS spoofing in network traffic!
+Query: microsoft.com.
+DNS Server: 9.9.9.9
+Received IPs: 13.107.246.59
+Trusted IPs: 13.107.253.68
+
+Sat May 24 05:03:05 2025: Possible DNS spoofing in network traffic!
+Query: microsoft.com.
+DNS Server: 208.67.222.222
+Received IPs: 13.107.246.48
+Trusted IPs: 13.107.253.68
+
+Sat May 24 05:03:06 2025: Possible DNS spoofing detected!
+Domain: amazonaws.com
+Expected IP: 72.21.206.80
+Suspicious servers: 8.8.8.8
+Responses from suspicious servers:
+  - 8.8.8.8: 185.199.111.133, 185.199.108.133, 185.199.110.133, 185.199.109.133
+
+Sat May 24 05:03:08 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 8.8.8.8
+Received IPs: 142.250.77.110
+Trusted IPs: 142.251.222.206
+
+Sat May 24 05:03:09 2025: Possible DNS spoofing in network traffic!
+Query: googleusercontent.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.129
+Trusted IPs: 142.251.221.193, 204.79.197.212
+
+Sat May 24 05:03:09 2025: Possible DNS spoofing in network traffic!
+Query: googleusercontent.com.
+DNS Server: 9.9.9.9
+Received IPs: 74.125.24.132
+Trusted IPs: 142.251.221.193, 142.251.222.129
+
+Sat May 24 05:03:11 2025: Possible DNS spoofing detected!
+Domain: googletagmanager.com
+Expected IP: 142.250.206.14
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 142.251.43.136
+  - 9.9.9.9: 74.125.68.97
+  - 208.67.222.222: 142.250.77.136
+
+Sat May 24 05:03:12 2025: Possible DNS spoofing in network traffic!
+Query: googleapis.com.
+DNS Server: 8.8.8.8
+Received IPs: 142.251.221.196
+Trusted IPs: 142.132.202.70, 142.251.221.164
+
+Sat May 24 05:03:13 2025: Possible DNS spoofing detected!
+Domain: revsci.net
+Expected IP: 17.253.144.10
+Suspicious servers: 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 9.9.9.9: 142.132.202.70
+  - 208.67.222.222: 142.132.202.70
+
+Sat May 24 05:03:14 2025: Possible DNS spoofing in network traffic!
+Query: mail.google.com.
+DNS Server: 192.168.43.1
+Received IPs: 142.250.207.69
+Trusted IPs: 142.251.221.101, 142.251.221.165
+
+Sat May 24 05:03:14 2025: Possible DNS spoofing detected!
+Domain: adadvisor.net
+Expected IP: 34.117.132.120
+Suspicious servers: 8.8.8.8, 1.1.1.1
+Responses from suspicious servers:
+  - 8.8.8.8: 142.250.77.110
+  - 1.1.1.1: 142.251.222.206
+
+Sat May 24 05:03:16 2025: Possible DNS spoofing in network traffic!
+Query: raw.githubusercontent.com.
+DNS Server: 1.1.1.1
+Received IPs: 185.199.111.133, 185.199.108.133, 185.199.109.133, 185.199.110.133
+Trusted IPs: 35.244.159.8, 34.98.64.218
+
+Sat May 24 05:03:18 2025: Possible DNS spoofing in network traffic!
+Query: googleadservices.com.
+DNS Server: 8.8.8.8
+Received IPs: 142.251.43.34
+Trusted IPs: 142.250.195.194, 172.217.167.130
+
+Sat May 24 05:03:18 2025: Possible DNS spoofing detected!
+Domain: pubmatic.com
+Expected IP: 52.84.12.82
+Suspicious servers: 1.1.1.1, 9.9.9.9
+Responses from suspicious servers:
+  - 1.1.1.1: 23.218.89.127
+  - 9.9.9.9: 108.156.144.27, 108.156.144.29, 108.156.144.23, 108.156.144.69
+
+Sat May 24 05:03:19 2025: Possible DNS spoofing in network traffic!
+Query: ssl.gstatic.com.
+DNS Server: 8.8.8.8
+Received IPs: 142.251.221.163
+Trusted IPs: 142.251.222.131
+
+Sat May 24 05:03:21 2025: Possible DNS spoofing detected!
+Domain: instagram.com
+Expected IP: 185.199.109.133
+Suspicious servers: 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 9.9.9.9: 57.144.150.34
+  - 208.67.222.222: 57.144.208.34
+
+Sat May 24 05:03:22 2025: Possible DNS spoofing detected!
+Domain: mathtag.com
+Expected IP: 142.251.222.196
+Suspicious servers: 1.1.1.1
+Responses from suspicious servers:
+  - 1.1.1.1: 142.250.205.4
+
+Sat May 24 05:03:23 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.196.165, 142.250.77.110
+
+Sat May 24 05:03:23 2025: Possible DNS spoofing in network traffic!
+Query: adnxs.com.
+DNS Server: 208.67.222.222
+Received IPs: 68.67.160.186, 68.67.160.137, 68.67.179.166, 68.67.181.248, 68.67.160.114, 68.67.161.182, 68.67.179.153, 68.67.160.24, 68.67.179.164, 68.67.179.87, 68.67.179.155, 68.67.181.231
+Trusted IPs: 37.252.171.52, 37.252.172.123, 104.254.151.36, 104.254.151.68, 104.254.151.69, 104.254.151.60, 37.252.171.21, 37.252.171.53, 37.252.173.215, 37.252.171.149, 37.252.171.85, 104.254.150.241, 104.254.148.251, 104.254.148.252
+
+Sat May 24 05:03:23 2025: Possible DNS spoofing detected!
+Domain: gmail.com
+Expected IP: 142.250.77.110
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 142.250.196.165
+  - 9.9.9.9: 172.253.118.18, 172.253.118.83, 172.253.118.19, 172.253.118.17
+  - 208.67.222.222: 142.250.183.165
+
+Sat May 24 05:03:25 2025: No DNS servers responded to the query for rlcdn.com
+Sat May 24 05:03:26 2025: Possible DNS spoofing detected!
+Domain: linkedin.com
+Expected IP: 185.199.108.133
+Suspicious servers: 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 9.9.9.9: 150.171.22.12
+  - 208.67.222.222: 150.171.22.12
+
+Sat May 24 05:03:27 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:27 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:27 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:27 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:28 2025: Possible DNS spoofing detected!
+Domain: yahooapis.com
+Expected IP: 13.248.158.7
+Suspicious servers: 8.8.8.8, 1.1.1.1
+Responses from suspicious servers:
+  - 8.8.8.8: 57.144.208.1
+  - 1.1.1.1: 157.240.7.35
+
+Sat May 24 05:03:29 2025: Possible DNS spoofing detected!
+Domain: chartbeat.net
+Expected IP: 185.199.108.133
+Suspicious servers: 1.1.1.1, 9.9.9.9, 208.67.222.222
+Responses from suspicious servers:
+  - 1.1.1.1: 52.217.174.181, 52.216.37.253, 52.217.169.205, 16.182.73.61, 16.182.106.93, 54.231.236.45, 52.217.64.83, 54.231.132.253
+  - 9.9.9.9: 52.217.92.171, 54.231.232.93, 3.5.12.255, 54.231.229.13, 3.5.20.123, 52.217.168.229, 52.216.48.5, 16.15.184.224
+  - 208.67.222.222: 52.216.52.13, 52.216.208.85, 52.217.134.77, 54.231.130.77, 54.231.139.117, 16.15.176.66, 16.182.39.125, 52.216.40.173
+
+Sat May 24 05:03:29 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:30 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:30 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:30 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:31 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 8.8.8.8
+Received IPs: 142.250.77.110
+Trusted IPs: 142.251.222.206
+
+Sat May 24 05:03:31 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:32 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:32 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:32 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:33 2025: Possible DNS spoofing detected!
+Domain: crwdcntrl.net
+Expected IP: 199.233.57.21
+Suspicious servers: 8.8.8.8
+Responses from suspicious servers:
+  - 8.8.8.8: 142.250.77.110
+
+Sat May 24 05:03:33 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:34 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:34 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:34 2025: Possible DNS spoofing in network traffic!
+Query: facebook.com.
+DNS Server: 1.1.1.1
+Received IPs: 157.240.15.35
+Trusted IPs: 57.144.208.1, 157.240.7.35
+
+Sat May 24 05:03:47 2025: Possible DNS spoofing in network traffic!
+Query: addthis.com.
+DNS Server: 9.9.9.9
+Received IPs: 23.55.39.18, 23.55.39.4
+Trusted IPs: 23.202.229.20, 23.202.229.21
+
+Sat May 24 05:03:57 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:57 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:57 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:57 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:57 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:58 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:58 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:58 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:58 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:58 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:58 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:59 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:03:59 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:00 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:00 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:00 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:02 2025: Possible DNS spoofing in network traffic!
+Query: googletagmanager.com.
+DNS Server: 9.9.9.9
+Received IPs: 74.125.68.97
+Trusted IPs: 142.251.43.136, 142.250.77.136
+
+Sat May 24 05:04:07 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:07 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:08 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:08 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:08 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:09 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:09 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:09 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:11 2025: Possible DNS spoofing in network traffic!
+Query: mail.google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.221.101
+Trusted IPs: 142.251.221.165
+
+Sat May 24 05:04:13 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:13 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:13 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:13 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:13 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:14 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:14 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:14 2025: Possible DNS spoofing in network traffic!
+Query: google.com.
+DNS Server: 1.1.1.1
+Received IPs: 142.251.222.206
+Trusted IPs: 142.250.77.110, 142.250.206.46
+
+Sat May 24 05:04:23 2025: Possible DNS spoofing in network traffic!
+Query: googleadservices.com.
+DNS Server: 8.8.8.8
+Received IPs: 172.217.167.130
+Trusted IPs: 142.250.195.194, 142.251.43.34
+
+Sat May 24 05:04:23 2025: Possible DNS spoofing in network traffic!
+Query: pubmatic.com.
+DNS Server: 9.9.9.9
+Received IPs: 108.156.144.23, 108.156.144.27, 108.156.144.29, 108.156.144.69
+Trusted IPs: 52.84.12.54, 52.84.12.106, 52.84.12.82, 52.84.12.85
+
+Sat May 24 05:04:24 2025: Possible DNS spoofing in network traffic!
+Query: googleadservices.com.
+DNS Server: 8.8.8.8
+Received IPs: 142.251.43.34
+Trusted IPs: 142.250.195.194, 172.217.167.130
+
+Sat May 24 05:04:24 2025: Possible DNS spoofing in network traffic!
+Query: googleadservices.com.
+DNS Server: 8.8.8.8
+Received IPs: 172.217.167.130
+Trusted IPs: 142.250.195.194, 142.251.43.34
+
+Sat May 24 05:08:41 2025: DNS Spoofing detected!
+Domain: ssl.gstatic.com
+Suspicious IP: 142.250.77.131
+Expected IPs: 64.233.170.94, 142.250.66.3, 142.250.195.227
+From: 192.168.43.1
+Sat May 24 05:08:41 2025: DNS Spoofing detected!
+Domain: ssl.gstatic.com
+Suspicious IP: 142.250.77.131
+Expected IPs: 64.233.170.94, 142.250.66.3, 142.250.195.227
+From: 192.168.43.1
+Sat May 24 05:08:44 2025: DNS Spoofing detected!
+Domain: mobile.events.data.microsoft.com
+Suspicious IP: 13.89.179.8
+Expected IPs: 52.182.143.209, 20.189.173.25, 20.44.10.123
+From: 192.168.43.1
